@@ -14,44 +14,16 @@ export default function Home() {
       <Main page="index"/>
 
       <Footer/>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+      <style jsx >{`
+        .code {
+         background: #d4c8c8;
+         border-radius: 5px;
+         padding: 0.75rem;
+         font-size: 1.1rem;
+         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+                   DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;  
         }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
-
+      `}</style> 
       <style jsx global>{`
         html,
         body {
@@ -64,7 +36,7 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style>
+      `}</style> 
     </div>
   )
 }

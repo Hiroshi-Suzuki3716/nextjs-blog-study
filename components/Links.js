@@ -1,7 +1,8 @@
-import styles from '../styles/Home.module.css';
+import styles from './Links.module.css';
 
 export  function Links() {
   return (
+    <div >
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
@@ -31,6 +32,6 @@ export  function Links() {
             </p>
           </a>
         </div>
-    
+    </div>
     )
 }
