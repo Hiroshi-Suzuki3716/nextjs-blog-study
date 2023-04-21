@@ -14,16 +14,6 @@ export default function Home() {
       <Main page="index"/>
 
       <Footer/>
-      <style jsx >{`
-        .code {
-         background: #d4c8c8;
-         border-radius: 5px;
-         padding: 0.75rem;
-         font-size: 1.1rem;
-         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-                   DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;  
-        }
-      `}</style> 
       <style jsx global>{`
         html,
         body {
