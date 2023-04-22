@@ -1,5 +1,5 @@
-import { Links } from '../components/Links';
-import { Headline } from '../components/Headline';
+import { Links } from '../Links';
+import { Headline } from '../Headline';
 import styles from './Main.module.css';
 
 export function Main(props) {
