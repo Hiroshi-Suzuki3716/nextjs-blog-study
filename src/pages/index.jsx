@@ -3,7 +3,14 @@ import styles from 'src/styles/Home.module.css';
 import {Footer} from "src/components/Footer"
 import { Main } from "src/components/Main";
 import { Header } from "src/components/Header";
+import { useEffect } from 'react';
 export default function Home() {
+  useEffect(() => {
+    document.body.style.backgroundColor ="lightgreen";
+    return () => {
+      document.body.style.backgroundColor ="";
+}; 
+},[]);
   return (
     <div className={styles.container}>
       <Head>
@@ -11,6 +18,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <button 
+      onClick={
+        function () {
+          alert(123)
+        }
+      }
+      >
+        BUtton</button>
       <Main page="index"/>
 
       <Footer/>
